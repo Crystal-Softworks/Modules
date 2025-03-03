@@ -1,4 +1,3 @@
-```lua
 local Settings = {}
 local HttpService = game:GetService("HttpService")
 
@@ -20,4 +19,3 @@ function Settings:Delete(FileName)
 end
 
 return Settings
-```
