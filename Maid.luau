@@ -2,7 +2,7 @@ local Maid = {
 	ClassName = "Maid"
 }
 
-local Promise = loadstring(game:HttpGet("https://codeberg.org/Crystal-Softworks/Utilities/raw/branch/main/Promise.luau"))()
+local Promise = loadstring(game:HttpGet("https://raw.githubusercontent.com/Crystal-Softworks/Modules/refs/heads/main/Promise.luau"))()
 
 Maid.__index = function(self, Key)
 	if Maid[Key] ~= nil then
