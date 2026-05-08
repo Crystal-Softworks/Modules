@@ -24,8 +24,8 @@ Scheduler.__index = Scheduler
 local RunService = game:GetService("RunService")
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 
-local Maid = loadstring(game:HttpGet("https://codeberg.org/Crystal-Softworks/Utilities/raw/branch/main/Maid.luau"))()
-local Signal = loadstring(game:HttpGet("https://codeberg.org/Crystal-Softworks/Utilities/raw/branch/main/Signal.luau"))()
+local Maid = loadstring(game:HttpGet("https://raw.githubusercontent.com/Crystal-Softworks/Modules/refs/heads/main/Maid.luau"))()
+local Signal = loadstring(game:HttpGet("https://raw.githubusercontent.com/Crystal-Softworks/Modules/refs/heads/main/Signal.luau"))()
 
 --- Create a new Scheduler object
 --- @diagnostic disable-next-line: undefined-doc-name
