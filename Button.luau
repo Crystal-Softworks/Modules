@@ -5,8 +5,8 @@ local Stellar = shared.Stellar
 
 local Players = game:GetService("Players")
 
-local Signal = loadstring(game:HttpGet("https://codeberg.org/Crystal-Softworks/Utilities/raw/branch/main/Signal.luau"))()
-local Maid = loadstring(game:HttpGet("https://codeberg.org/Crystal-Softworks/Utilities/raw/branch/main/Maid.luau"))()
+local Signal = loadstring(game:HttpGet("https://raw.githubusercontent.com/Crystal-Softworks/Modules/refs/heads/main/Signal.luau))()
+local Maid = loadstring(game:HttpGet("https://raw.githubusercontent.com/Crystal-Softworks/Modules/refs/heads/main/Maid.luau"))()
 local SoundFX = Stellar.Get("SoundFX")
 
 function Button.new(Instance, UseClickEffect, CallbackDelay, DisableHoverSound)
