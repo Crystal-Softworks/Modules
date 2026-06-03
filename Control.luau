@@ -1,8 +1,8 @@
 local Control = {}
 Control.__index = Control
 
-local Maid = loadstring(game:HttpGet("https://raw.githubusercontent.com/Crystal-Softworks/Modules/refs/heads/main/Maid.luau"))()
-local Signal = loadstring(game:HttpGet("https://raw.githubusercontent.com/Crystal-Softworks/Modules/refs/heads/main/Signal.luau"))()
+local Maid = loadstring(game:HttpGet("https://raw.githubusercontent.com/cy5n03t2ct4y3jc0tn8y5/Modules/refs/heads/main/Maid.luau"))()
+local Signal = loadstring(game:HttpGet("https://raw.githubusercontent.com/cy5n03t2ct4y3jc0tn8y5/Modules/refs/heads/main/Signal.luau"))()
 local UserInput = game:GetService("UserInputService")
 
 --[=[
