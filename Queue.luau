@@ -53,9 +53,12 @@ end
 
 --- Add a value to the end of the queue
 function Queue:Enqueue(value)
-    local last = self._last + 1
-    self._last = last
-    self._queue[last] = value
+	print("SELF", self)
+	print("VALUE", value)
+
+	local last = self._last + 1
+	self._last = last
+	self._queue[last] = value
 end
 
 --- Remove and return the first value in the queue
