@@ -1,6 +1,4 @@
 -- Decompiled with Potassium.
-
-require(script.Parent.Types)
 local u1 = {
     ["DataTypesToString"] = {
         [BrickColor] = "BrickColor",
