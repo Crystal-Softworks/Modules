@@ -1,7 +1,6 @@
 -- Decompiled with Potassium.
 
-local u1 = require(script.Parent.DataTypeBuffer)
-require(script.Parent.Types)
+local u1 = loadstring(game:HttpGet("https://raw.githubusercontent.com/cy5n03t2ct4y3jc0tn8y5/Modules/refs/heads/main/BufferUtil/DataTypeBuffer.luau"))()
 local u2 = {}
 u2.__index = u2
 function u2.new(p3) --[[ Line: 20 ]]
